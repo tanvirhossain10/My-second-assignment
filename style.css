@@ -226,11 +226,9 @@ body{
 }
 
 .fotter-center{
-    width: 320px;
-    margin-left: -20px;
+    width: 305px;
+    margin-left: -55px;
 }
-
-   
 
    
   }
@@ -240,18 +238,28 @@ body{
     /* tablet responsive start */
 
 
-    @media only screen and (max-width: 990px){
+    @media only screen and (min-width:690px) and (max-width:1000px){
        .products{
            display: grid;
            grid-template-columns: repeat(2, 1fr);
            grid-gap: 20px;
-           width: 500px;
+           width: 200px;
+           margin-left: -200px;
        } 
        #second-title{
-           margin-right: 400px;
+           margin-right: 700px;
        }   
        .third-article{
-           width: 380px;
+           width: 400px;
        } 
+       .third-container{
+           margin-left: 40px;
+       }
+       .container{
+           margin-left: -100px ;
+       }
+       #header-title{
+           margin-left: 20px;
+       }
 
     }
