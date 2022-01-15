@@ -15,7 +15,7 @@ body{
   margin-top: -150px;
 }
 .first-title{
-    width: 582px;
+    /* width: 582px; */
     /* height: 270px; */
     margin-left: 120px;
     margin-top: 285px;
@@ -23,7 +23,7 @@ body{
 #first-h1{
     font-size: 52px;
     font-weight: 700;
-    display: inline;
+    /* display: inline; */
 
     
 }
@@ -148,17 +148,12 @@ body{
      padding: 70px;
  }
 
-
-    /* For mobile phones: */
-
  @media only screen and (max-width: 690px) {
      body{
-         width: 100%;
+         width: 700px;
      }
    .container{
-       /* width: 100%; */
        display: block;
-       /* margin-right: 500px; */
    }
    #header-title{
             margin-bottom: -200px;
@@ -169,17 +164,12 @@ body{
    }
    .first-title{
        margin-left: -50px;
-       /* width: 400px; */
-       /* height: 30px; */
    }
    #first-h1{
-       /* width: 500px; */
+       width: 500px;
        font-size: 20px;
-       margin-left: 150px;
-      
-   }
-   span{
        margin-left: 200px;
+      
    }
    .first-article{
        font-size: 15px;
@@ -191,18 +181,28 @@ body{
        margin-left: 200px;
 
    }
-
-   /* second-contaier */
+   #second-title{
+     align-items: center;
+    margin-right: 1000px;
+   }
 
    .second-container{
-       /* width: 100px; */
-       display: none;
+       display: flex;
+       align-items:center;
+       flex-direction: column;
    }
    .products{
-       display: block;
-       /* align-items: center; */
-       margin-left: -200px;
+       display:flex;
+       flex-direction: column;
+       margin-left: -900px;
+       
 
+   }
+   #link-button-two{
+       
+      align-content: flex-start;
+      margin-left: -700px;
+      margin-top: 10px;
    }
 
 
