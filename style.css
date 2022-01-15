@@ -208,7 +208,7 @@ body{
    #link-button-two{
        
       align-content: flex-start;
-      margin-left: -700px;
+      margin-left: -900px;
       margin-top: 10px;
    }
 .third-container{
@@ -222,16 +222,18 @@ body{
     margin-left: 50px;
 }
 .third-article{
-    width: 300px;
-    margin-right: 40px;
+    width: 200px;
+    margin-left: 100px;
+}
+
+.fotter-center{
+    width: 320px;
+    margin-left: -20px;
 }
 
 
 
-
-
 footer{
-       display: none;
    }
    
   }
