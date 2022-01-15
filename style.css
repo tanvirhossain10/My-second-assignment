@@ -27,14 +27,26 @@ body{
 
     
 }
+/* transiono-effect */
+.first-link-button:hover{
+    background-color: #FFCCCC;
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+}
+
 .first-link-button{
+    line-height: 1;
     text-decoration: none;
     color: #FFFFFF;
     background: #E02C6D;
     border-radius: 40px;
     padding: 10px 24px;
     font-weight: 500;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+
 }
+
 
 .first-side-pic{
     margin-top: 211px;
