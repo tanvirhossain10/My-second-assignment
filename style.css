@@ -61,7 +61,6 @@ body{
 }
 .product{
   background-color: #FFFFFF;
-  /* height: 476px; */
   width: 329px;
   border-radius: 10px;
 }
@@ -150,7 +149,7 @@ body{
 
  @media only screen and (max-width: 690px) {
      body{
-         width: 700px;
+         width: 100%;
      }
    .container{
        display: block;
@@ -231,9 +230,28 @@ body{
     margin-left: -20px;
 }
 
+   
 
-
-footer{
-   }
    
   }
+   /* mobile responsive end */  
+
+
+    /* tablet responsive start */
+
+
+    @media only screen and (max-width: 990px){
+       .products{
+           display: grid;
+           grid-template-columns: repeat(2, 1fr);
+           grid-gap: 20px;
+           width: 500px;
+       } 
+       #second-title{
+           margin-right: 400px;
+       }   
+       .third-article{
+           width: 380px;
+       } 
+
+    }
