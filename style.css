@@ -147,3 +147,72 @@ body{
  .fotter-center{
      padding: 70px;
  }
+
+
+    /* For mobile phones: */
+
+ @media only screen and (max-width: 690px) {
+     body{
+         width: 100%;
+     }
+   .container{
+       /* width: 100%; */
+       display: block;
+       /* margin-right: 500px; */
+   }
+   #header-title{
+            margin-bottom: -200px;
+   }
+   .first-pic{
+       width: 300px;
+       margin-left: -50px;
+   }
+   .first-title{
+       margin-left: -50px;
+       /* width: 400px; */
+       /* height: 30px; */
+   }
+   #first-h1{
+       /* width: 500px; */
+       font-size: 20px;
+       margin-left: 150px;
+      
+   }
+   span{
+       margin-left: 200px;
+   }
+   .first-article{
+       font-size: 15px;
+    margin-left: 220px;
+    width: 130px;
+   }
+   .first-link-button{
+       font-size: 10px;
+       margin-left: 200px;
+
+   }
+
+   /* second-contaier */
+
+   .second-container{
+       /* width: 100px; */
+       display: none;
+   }
+   .products{
+       display: block;
+       /* align-items: center; */
+       margin-left: -200px;
+
+   }
+
+
+
+
+
+
+
+   .third-container, footer{
+       display: none;
+   }
+   
+  }
