@@ -47,6 +47,7 @@ body{
 .second-container{
     width: 1047px;
     margin-left: 200px;
+    margin-top: 380px;
 
 }
 #second-title{
@@ -88,4 +89,12 @@ body{
  .rating-number{
      color: #5E6366;
      margin-left: 8px;
+ }
+ #link-button-two{
+     margin-top: 50px;
+    margin-left: 930px;
+ }
+ #second-button{
+     text-decoration: none;
+     color: #E02C6DDE;
  }
